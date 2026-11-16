@@ -3,8 +3,6 @@ package bss;
 import java.util.ArrayList;
 import java.util.function.DoubleUnaryOperator;
 
-import javax.swing.JFileChooser;
-
 import net.imglib2.RandomAccessibleInterval;
 import net.imglib2.converter.Converters;
 import net.imglib2.histogram.BinMapper1d;

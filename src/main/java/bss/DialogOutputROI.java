@@ -1,8 +1,6 @@
 package bss;
 
 import java.awt.AWTEvent;
-import java.awt.Checkbox;
-import java.awt.TextField;
 
 import bss.io.GetFolderDialog;
 import ij.Prefs;

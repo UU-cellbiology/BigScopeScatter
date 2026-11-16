@@ -11,7 +11,7 @@
 
 	<groupId>nl.uu.science.cellbiology</groupId>       
 	<artifactId>BigScopeScatter</artifactId> 
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 
 	<name>BigScopeScatter</name>                                                   
 	<description> A plugin to build and analyze cytofluorograms for large images with log and linear scaling </description> 
@@ -62,7 +62,7 @@
     <scm>
         <connection>scm:git:git://github.com/ekatrukha/BigScopeScatter</connection>
         <developerConnection>scm:git:git@github.com:ekatrukha/BigScopeScatter</developerConnection>
-        <tag>BigScopeScatter-0.0.1</tag>
+        <tag>BigScopeScatter-0.0.2</tag>
         <url>https://github.com/ekatrukha/BigScopeScatter</url>
     </scm>
     <issueManagement>
@@ -79,7 +79,13 @@
 		<license.licenseName>bsd_2</license.licenseName>
         <license.copyrightOwners>Cell Biology, Neurobiology and Biophysics Department of Utrecht University.</license.copyrightOwners>  			
 		<license.excludes>**/resources/**</license.excludes>
-		<bdv-loaders.version>0.22.0</bdv-loaders.version>
+		<!-- NB: Parent pom-scijava sets Java 11. We override it here to stay compatible with FIJI stable / Java 8. -->
+        <scijava.jvm.version>1.8</scijava.jvm.version>
+        <scijava.jvm.build.version>[1.8.0-101,)</scijava.jvm.build.version>
+        <!-- Use older versions of dependencies to stay compatible with FIJI stable / Java 8. -->
+        <bigdataviewer-core.version>10.6.8</bigdataviewer-core.version>
+        <scifio.version>0.48.0</scifio.version>
+		<bdv-loaders.version>0.23.3</bdv-loaders.version>
 		
 	</properties>
 
