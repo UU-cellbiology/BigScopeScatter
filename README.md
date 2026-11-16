@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/UU-cellbiology/BigScopeScatter/actions/workflows/build.yml/badge.svg)](https://github.com/UU-cellbiology/BigScopeScatter/actions/workflows/build.yml)    
+[![Build Status](https://github.com/UU-cellbiology/BigScopeScatter/actions/workflows/build.yml/badge.svg)](https://github.com/UU-cellbiology/BigScopeScatter/actions/workflows/build.yml)  [![DOI](./doibadge/zenodo.24284970.svg)](https://doi.org/10.5281/zenodo.24284969)   
 
 
 # BigScopeScatter

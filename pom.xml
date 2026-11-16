@@ -11,7 +11,7 @@
 
 	<groupId>nl.uu.science.cellbiology</groupId>       
 	<artifactId>BigScopeScatter</artifactId> 
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 
 	<name>BigScopeScatter</name>                                                   
 	<description> A plugin to build and analyze cytofluorograms for large images with log and linear scaling </description> 
@@ -62,7 +62,7 @@
     <scm>
         <connection>scm:git:git://github.com/ekatrukha/BigScopeScatter</connection>
         <developerConnection>scm:git:git@github.com:ekatrukha/BigScopeScatter</developerConnection>
-        <tag>BigScopeScatter-0.0.2</tag>
+        <tag>BigScopeScatter-0.0.3</tag>
         <url>https://github.com/ekatrukha/BigScopeScatter</url>
     </scm>
     <issueManagement>
