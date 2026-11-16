@@ -8,6 +8,11 @@ Specific areas (ROIs) on the scatter plot can be selected and reconstructed back
 For detailed usage/installation instructions,   
 please refer to **[wiki](https://github.com/UU-cellbiology/BigScopeScatter/wiki)**.   
 
+----------
+
+Developed in [Cell Biology group](http://cellbiology.science.uu.nl) of Utrecht University.  
+<a href="mailto:katpyxa@gmail.com">E-mail</a> for any questions or tag <a href="https://forum.image.sc/u/ekatrukha/summary">@ekatrukha</a> at <a href="https://forum.image.sc/">image.sc</a> forum.   
+
 
    
    

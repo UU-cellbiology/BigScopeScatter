@@ -95,7 +95,7 @@
 			<groupId>ome</groupId>
 			<artifactId>bio-formats_plugins</artifactId>
 			<exclusions>
-				<exclusion><!-- NB: Exclude problematic uber-JAR that bundles commons-io. -->
+				<exclusion><!-- NB: Exclude problematic uber-JAR that bundles commons-io.  -->
 					<groupId>ch.systems.cisd</groupId>
 					<artifactId>jhdf5</artifactId>
 				</exclusion>
